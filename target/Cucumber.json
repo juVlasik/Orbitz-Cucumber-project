@@ -1,0 +1,101 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-08-19T06:54:44.962Z",
+        "line": 6,
+        "name": "Negative login using random email and password",
+        "description": "",
+        "id": "login-feature;negative-login-using-random-email-and-password",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 4999000000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "I am on home page",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iAmOnHomePage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 645000000,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "I click on Account button",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iClickOnAccountButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1206000000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "I click on Sign In button",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iClickOnSignInButton()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5129000000,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "I type in random username and no password",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iTypeInRandomUsernameAndNoPassword()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 89000000,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "I click on Sign In button again",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iClickOnSignInButtonAgain()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5034000000,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "I should see an error message",
+            "match": {
+              "location": "com.orbitz.stepDefs.LoginStepDefinitions.iShouldSeeAnErrorMessage()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@temp"
+          }
+        ]
+      }
+    ],
+    "name": "Login feature",
+    "description": "As a tester, I want to check login functionality using login page",
+    "id": "login-feature",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/com/orbitz/features/login.feature",
+    "tags": []
+  }
+]
