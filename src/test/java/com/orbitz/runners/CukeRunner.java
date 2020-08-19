@@ -11,8 +11,8 @@ import io.cucumber.junit.CucumberOptions.SnippetType;
 @CucumberOptions(
 		tags = "@temp",
 		
-		features = "src/test/resources/com/automationpractice/features",
-		glue = "com/automationpractice/stepDefs",
+		features = "src/test/resources/com/orbitz/features",
+		glue = "com/orbitz/stepDefs",
 		plugin = {"summary", 
 				 "pretty",
 				 "html:target/builtInReport",
